@@ -1,0 +1,27 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.name {
+  color: #448aca;
+  font-size: 36px;
+  font-weight: bold;
+  font-family: Do hyeon, helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #448aca;
+text-decoration: none;
+}
+
+a:visited{
+  color: #448aca;
+text-decoration: none;
+}
