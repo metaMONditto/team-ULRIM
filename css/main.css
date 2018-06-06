@@ -1,0 +1,73 @@
+body {
+  font-family: Do hyeon, helvetica, Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.kreator {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.kreator_image {
+  width: 135px;
+  height: 45px;
+}
+
+.menu {
+  border-radius: 25px;
+  border: 2px solid #366ea2;
+  width: 768px;
+  height: 50px;
+  display: flex;
+    align-content: space-between;
+  margin-bottom: 100px;
+  font-size: 36px;
+}
+
+.menu1 {
+  margin-left: 10px;
+}
+
+.menu2 {
+  margin-left: 30px;
+  }
+
+.logo{
+
+}
+
+.intro{
+  padding-top: 25px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 25px;
+}
+.urlim{
+  padding: 25px;
+  font-size: 30px;
+}
+
+.dooyong, .anna, .sumin{
+  display: flex;
+  flex-direction: row;
+}
+.wooseung, .chaejeong{
+  display: flex;
+  flex-direction: row-reverse;
+  text-align: right;
+}
+.name{
+  font-style: italic;
+  font-size: 33px;
+}
+
+.dooyong_image, .wooseung_image, .anna_image, .chaejeong_image, .sumin_image{
+  width: 200px;
+  height: 200px;
+}

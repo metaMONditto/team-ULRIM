@@ -5,23 +5,41 @@ body {
   flex-direction: column;
 }
 
+html {
+  height: 680px;
+}
+
 .logo {
+  padding-top: 100px;
   cursor: pointer;
 }
 
 .name {
+  cursor: pointer;
   color: #448aca;
   font-size: 36px;
   font-weight: bold;
   font-family: Do hyeon, helvetica, Arial, sans-serif;
+  margin-top: 3%;
+  margin-bottom: 12%;
+  text-align: center;
+  border-radius: 25px;
+  border: 2px solid #366ea2;
+  width: 630px;
+  height: 45px;
+}
+
+.kreator {
+  justify-content: center;
+  padding-left: 115px;
 }
 
 a {
   color: #448aca;
-text-decoration: none;
+  text-decoration: none;
 }
 
-a:visited{
-  color: #448aca;
-text-decoration: none;
+a:visited {
+  color: #366ea2;
+  text-decoration: none;
 }
