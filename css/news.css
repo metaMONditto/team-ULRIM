@@ -5,6 +5,7 @@ body {
   align-items: center;
   flex-direction: column;
 }
+
 .kreator {
   display: flex;
   justify-content: flex-end;
@@ -34,29 +35,3 @@ body {
 .menu2 {
   margin-left: 30px;
   }
-
-.logo{
-
-}
-
-.month{
-  border: 1.5px black solid;
-  width: 150px; height:50px;
-}
-
-.jobs{
-  padding: 100px;
-  font-size: 36px;
-}
-
-.co{
-  margin-bottom: 150px;
-  padding-left: 30px;
-  font-size: 40px;
-  cursor: pointer;
-}
-
-.june, .july{
-  display:flex;
-  flex-direction: row;
-}

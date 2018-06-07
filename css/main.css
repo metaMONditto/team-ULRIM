@@ -6,41 +6,69 @@ body {
   flex-direction: column;
 }
 
-.kreator {
-  display: flex;
-  justify-content: flex-end;
-  width: 100%;
+.menu{
+  width: 1150px;
+  height: 130px;
+  font-size: 30px;
+
+      display: flex;
+      align-content: space-between;
 }
+
+.logo, .midmenu, .kreator{
+}
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  width: 1150px;
+  height: 100px;
+justify-content: space-around;
+}
+
+li {
+  float: left;
+  border-right: 1px solid;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #fff;
+}
+
+.active {
+  background-color: #366ea2;
+}
+
 
 .kreator_image {
-  width: 135px;
+  width: 145px;
   height: 45px;
+  display:flex;
+  align-self: flex-end;
 }
 
-.menu {
-  border-radius: 25px;
-  border: 2px solid #366ea2;
-  width: 768px;
-  height: 50px;
-  display: flex;
-    align-content: space-between;
-  margin-bottom: 100px;
-  font-size: 36px;
+.logo_image {
+  width: 100px;
+  height: 75px;
+  display:flex;
+align-self: flex-start;
 }
 
-.menu1 {
-  margin-left: 10px;
-}
-
-.menu2 {
-  margin-left: 30px;
-  }
-
-.logo{
-
-}
-
-.intro{
+.intro {
   padding-top: 25px;
   padding-bottom: 20px;
   display: flex;
@@ -48,26 +76,36 @@ body {
   text-align: center;
   font-size: 25px;
 }
-.urlim{
+
+.urlim {
   padding: 25px;
   font-size: 30px;
 }
 
-.dooyong, .anna, .sumin{
+.dooyong, .anna, .sumin {
   display: flex;
   flex-direction: row;
 }
-.wooseung, .chaejeong{
+
+.wooseung, .chaejeong {
   display: flex;
   flex-direction: row-reverse;
   text-align: right;
 }
-.name{
-  font-style: italic;
-  font-size: 33px;
+
+.dooyong_texts, .anna_text, .sumin_text, .wooseung_text, .chaejeong_text {
+  display: flex;
+  flex-direction: column;
 }
 
-.dooyong_image, .wooseung_image, .anna_image, .chaejeong_image, .sumin_image{
+.name {
+  font-style: italic;
+  font-size: 33px;
+  border-bottom: 2px black solid;
+  margin-bottom: 16px;
+}
+
+.dooyong_image, .wooseung_image, .anna_image, .chaejeong_image, .sumin_image {
   width: 200px;
   height: 200px;
 }
