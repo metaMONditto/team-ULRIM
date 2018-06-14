@@ -5,38 +5,71 @@ body {
   align-items: center;
   flex-direction: column;
 }
-.kreator {
-  display: flex;
-  justify-content: flex-end;
-  width: 100%;
+.menu{
+  width: 1150px;
+  height: 130px;
+  font-size: 30px;
+
+      display: flex;
+      align-content: space-between;
 }
+.min{
+  padding-bottom:30px;
+}
+
+.semi-june{
+font-size: 24px;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  width: 1150px;
+  height: 100px;
+justify-content: space-around;
+}
+
+li {
+  float: left;
+  border-right: 1px;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #366ea2;
+}
+
+li a:active {
+  background-color: #366ea2;
+}
+
 
 .kreator_image {
-  width: 135px;
+  width: 145px;
   height: 45px;
+  display:flex;
+  align-self: flex-end;
 }
 
-.menu {
-  border-radius: 25px;
-  border: 2px solid #366ea2;
-  width: 768px;
-  height: 50px;
-  display: flex;
-    align-content: space-between;
-  margin-bottom: 100px;
-  font-size: 36px;
-}
-
-.menu1 {
-  margin-left: 10px;
-}
-
-.menu2 {
-  margin-left: 30px;
-  }
-
-.logo{
-
+.logo_image {
+  width: 100px;
+  height: 75px;
+  display:flex;
+align-self: flex-start;
 }
 
 .month{
@@ -50,7 +83,6 @@ body {
 }
 
 .co{
-  margin-bottom: 150px;
   padding-left: 30px;
   font-size: 40px;
   cursor: pointer;

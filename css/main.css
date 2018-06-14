@@ -30,7 +30,7 @@ justify-content: space-around;
 
 li {
   float: left;
-  border-right: 1px solid;
+  border-right: 1px;
 }
 
 li:last-child {
@@ -46,10 +46,10 @@ li a {
 }
 
 li a:hover {
-  background-color: #fff;
+  background-color: #366ea2;
 }
 
-.active {
+li a:active {
   background-color: #366ea2;
 }
 
