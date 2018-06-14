@@ -81,16 +81,16 @@ align-self: flex-start;
   font-size: 40px;
 }
 
-.june, .july, .august{
+.june, .july, .august, .september, .october, .november, .december{
   display:flex;
   flex-direction: row;
 }
-.min, .al, .august_content{
+.june_content, .july_content, .august_content, .september_content, .october_content, .november_content, .december_content{
   padding-bottom:100px;
   padding-left:15px;
 }
 
-.semi-june, .semi-july, .semi-august{
+.semi-june, .semi-july, .semi-august, .semi-september, .semi-october, .semi-november, .semi-december{
 font-size: 24px;
 cursor: pointer;
 display: flex;
@@ -104,5 +104,24 @@ flex-direction: row;
   color:black;
 }
 .semi-august-article:hover, .semi-august-company:hover, .semi-august-job:hover{
+  color: black;
+}
+.semi-september-article:hover, .semi-september-company:hover, .semi-september-job:hover{
+  color: black;
+}
+
+.semi-october-article:hover, .semi-october-company:hover, .semi-october-job:hover{
+  color: black;
+}
+
+.semi-october-article:hover, .semi-october-company:hover, .semi-october-job:hover{
+  color: black;
+}
+
+.semi-november-article:hover, .semi-november-company:hover, .semi-november-job:hover{
+  color: black;
+}
+
+.semi-december-article:hover, .semi-december-company:hover, .semi-december-job:hover{
   color: black;
 }
