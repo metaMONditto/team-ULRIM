@@ -1,0 +1,104 @@
+body {
+  font-family: Do hyeon, helvetica, Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.menu{
+  width: 1150px;
+  height: 130px;
+  font-size: 30px;
+
+      display: flex;
+      align-content: space-between;
+}
+
+ul {
+  list-style-type: none;
+  overflow: hidden;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  width: 1150px;
+  height: 100px;
+justify-content: space-around;
+}
+
+li {
+  float: left;
+  border-right: 1px;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #366ea2;
+}
+
+li a:active {
+  background-color: #366ea2;
+}
+
+
+.kreator_image {
+  width: 145px;
+  height: 45px;
+  display:flex;
+  align-self: flex-end;
+}
+
+.logo_image {
+  width: 100px;
+  height: 75px;
+  display:flex;
+align-self: flex-start;
+}
+
+.content{
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.metamon{
+  width: 300px;
+}
+
+.meta1, .meta2, .meta3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  font-size: 26px;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+.meta1, .meta2{
+  border-bottom: 1px solid black;
+}
+
+.metamon2{
+  display:flex;
+  align-content: flex-end;
+  width:300px;
+}
+
+.title{
+  font-size: 36px;
+  font-style: italic;
+}
+
+.m1, .m2, .m3{
+  padding-top: 30px;
+}
