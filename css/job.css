@@ -4,13 +4,13 @@ body {
   align-items: center;
   flex-direction: column;
 }
-.menu{
+
+.menu {
   width: 1150px;
   height: 130px;
   font-size: 30px;
-
-      display: flex;
-      align-content: space-between;
+  display: flex;
+  align-content: space-between;
 }
 
 ul {
@@ -21,7 +21,7 @@ ul {
   flex-direction: row;
   width: 1150px;
   height: 100px;
-justify-content: space-around;
+  justify-content: space-around;
 }
 
 li {
@@ -30,7 +30,7 @@ li {
 }
 
 li:last-child {
-    border-right: none;
+  border-right: none;
 }
 
 li a {
@@ -49,69 +49,70 @@ li a:active {
   background-color: #366ea2;
 }
 
-
 .kreator_image {
   width: 145px;
   height: 45px;
-  display:flex;
+  display: flex;
   align-self: flex-end;
 }
 
 .logo_image {
   width: 100px;
   height: 75px;
-  display:flex;
-align-self: flex-start;
+  display: flex;
+  align-self: flex-start;
 }
 
-.article{
+.job {
   padding: 50px;
   display: flex;
   flex-direction: column;
 }
 
-.article_title{
+.job_title {
   font-size: 54px;
-  display:flex;
+  display: flex;
   justify-content: center;
 }
 
-.metamon{
-  width: 300px;
-  display: flex;
-  align-self: center;
+.video-container{
+position:relative;
+padding-bottom:56.24%;
+height:0;
+overflow:hidden;
 }
 
-.meta1, .meta2, .meta3{
-    display: flex;
-    flex-direction: column;
-    align-self: center;
-  font-size: 26px;
-  padding-bottom: 30px;
-  padding-top: 30px;
-}
-.meta1, .meta2{
-  border-bottom: 1px solid black;
+.video-container iframe, .video-container object, .video-container embed{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
-.metamon2{
-  width:300px;
-}
 
-.meta-title{
+.job_subtitle {
   font-size: 40px;
   font-style: italic;
   display: flex;
-  align-self: center;
+  align-self: auto;
 }
 
-.m1, .m2, .m3{
-  padding-top: 30px;
-  display: flex;
-align-self: center;
-  flex-flow: column;
-}
-.article_content{
+.job_content {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+}
+
+.job_content1, .job_content2, .job_content3 {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+    font-size: 26px;
+    padding-bottom: 100px;
+}
+
+.job_content2 {
+  display:flex;
+  align-self: flex-end;
 }
