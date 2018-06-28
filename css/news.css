@@ -68,22 +68,19 @@ li a:active {
 align-self: flex-start;
 }
 
-body {
-  margin: 40px;
-}
-
 .wrapper {
   display: grid;
-  grid-template-columns: 100px 100px;
+  float: left;
+  grid-template-columns: 350px 350px;
+  grid-template-areas: 300px;
   grid-gap: 10px;
-  background-color: #fff;
-  color: #444;
+  background-color: #73a7d7;
 }
 
 .box {
-  background-color: #444;
-  color: #fff;
-  border-radius: 5px;
-  padding: 20px;
+  background-color: black;
+  color: #73a7d7;
+  border-radius: 15px;
+  padding: 30px;
   font-size: 150%;
 }
